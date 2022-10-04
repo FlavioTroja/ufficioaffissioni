@@ -1,0 +1,48 @@
+/* Min-width 992px */
+@media (min-width: 992px) {
+  .footer-col {
+    margin-bottom: 2rem;
+  }
+
+  .first {
+    display: inline-block;
+    width: 320px;
+    margin-right: 1.75rem;
+    vertical-align: top;
+  }
+
+  .second {
+    display: inline-block;
+    width: 320px;
+    margin-right: 1.75rem;
+    vertical-align: top;
+  }
+
+  .third {
+    display: inline-block;
+    width: 224px;
+    text-align: right;
+    vertical-align: top;
+
+    .fa-stack {
+      margin-right: 0;
+      margin-left: 0.375rem;
+    }
+  }
+}
+
+/* Min-width 1200px */
+@media (min-width: 1200px) {
+  .first {
+    width: 352px;
+    margin-right: 6rem;
+  }
+
+  .second {
+    margin-right: 6.5rem;
+  }
+
+  .third {
+    text-align: right;
+  }
+}
