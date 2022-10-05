@@ -1,0 +1,73 @@
+@import "../variables.scss";
+$cityBackground: #efebfd;
+$cityCardIconDefault: #8763ee;
+$cityCardIconFirstType: #defaeb;
+$cityIconFirstType: #00d462;
+$cityCardIconSecondType: #e2ebfd;
+$cityIconSecondType: #1f68f3;
+
+.card-1 {
+  padding-top: 9rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+}
+
+.card-1 .heading {
+  margin-bottom: 3.75rem;
+}
+
+.card-1 .h2-heading span {
+  color: $secondaryColor;
+  text-decoration: underline;
+}
+
+.card-1 .card {
+  margin-bottom: 5rem;
+  border: none;
+  background-color: transparent;
+}
+
+.card-1 .card-icon {
+  width: 76px;
+  height: 76px;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: $cityBackground;
+}
+
+.card-1 .card-icon .fas,
+.card-1 .card-icon .far {
+  color: $cityCardIconDefault;
+  font-size: 2.5rem;
+  line-height: 76px;
+}
+
+.card-1 .card-icon.green {
+  background-color: $cityCardIconFirstType;
+}
+
+.card-1 .card-icon.green .fas,
+.card-1 .card-icon.green .far {
+  color: $cityIconFirstType;
+}
+
+.card-1 .card-icon.blue {
+  background-color: $cityCardIconSecondType;
+}
+
+.card-1 .card-icon.blue .fas,
+.card-1 .card-icon.blue .far {
+  color: $cityIconSecondType;
+}
+
+.card-1 .card-body {
+  padding: 0;
+}
+
+.card-1 .card-title {
+  margin-bottom: 1rem;
+}
+
+.card-1 .card-body p {
+  margin-bottom: 1.125rem;
+}
