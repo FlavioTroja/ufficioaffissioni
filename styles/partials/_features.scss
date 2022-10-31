@@ -1,10 +1,10 @@
 @import "../variables.scss";
-$cityBackground: #efebfd;
-$cityCardIconDefault: #8763ee;
-$cityCardIconFirstType: #defaeb;
-$cityIconFirstType: #00d462;
-$cityCardIconSecondType: #e2ebfd;
-$cityIconSecondType: #1f68f3;
+$featureBackground: #efebfd;
+$featureCardIconDefault: #8763ee;
+$featureCardIconFirstType: #defaeb;
+$featureIconFirstType: #00d462;
+$featureCardIconSecondType: #e2ebfd;
+$featureIconSecondType: #1f68f3;
 
 .card-1 {
   padding-top: 9rem;
@@ -32,32 +32,32 @@ $cityIconSecondType: #1f68f3;
   height: 76px;
   margin-right: auto;
   border-radius: 10px;
-  background-color: $cityBackground;
+  background-color: $featureBackground;
 }
 
 .card-1 .card-icon .fas,
 .card-1 .card-icon .far {
-  color: $cityCardIconDefault;
+  color: $featureCardIconDefault;
   font-size: 2.5rem;
   line-height: 76px;
 }
 
 .card-1 .card-icon.green {
-  background-color: $cityCardIconFirstType;
+  background-color: $featureCardIconFirstType;
 }
 
 .card-1 .card-icon.green .fas,
 .card-1 .card-icon.green .far {
-  color: $cityIconFirstType;
+  color: $featureIconFirstType;
 }
 
 .card-1 .card-icon.blue {
-  background-color: $cityCardIconSecondType;
+  background-color: $featureCardIconSecondType;
 }
 
 .card-1 .card-icon.blue .fas,
 .card-1 .card-icon.blue .far {
-  color: $cityIconSecondType;
+  color: $featureIconSecondType;
 }
 
 .card-1 .card-body {

@@ -12,7 +12,7 @@ const CityPage: NextPage<CityProps> = ({ city }) => {
     return (
         <Layout>
             <HeaderPage />
-            <div id="cities" className="cards-1">
+            <div id="features" className="cards-1">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
