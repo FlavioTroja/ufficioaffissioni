@@ -16,40 +16,40 @@ const FooterPage: NextPage = () => {
                             <ul className="list-unstyled li-space-lg p-small">
                                 <li>Importanti: Termini e Condizioni, Privacy Policy</li>
                                 <li>Guide: Manifesti comunali nella tua città; Regolamento Affissioni Comunali</li>
-                                <li>Supporto: <Link href="/#richiedi-preventivo"><a >Richiedi Preventivo</a></Link>, <Link href="/contacts"><a>Contattaci</a></Link></li>
+                                <li>Supporto: <Link href="/#richiedi-preventivo">Richiedi Preventivo</Link>, <Link href="/contacts">Contattaci</Link></li>
                             </ul>
                         </div>
                         <div className="footer-col third">
                             <span className="fa-stack">
                                 <Link href="/">
-                                    <a>
-                                        <i className="fas fa-circle fa-stack-2x"></i>
-                                        <i className="fab fa-facebook-f fa-stack-1x"></i>
-                                    </a>
+
+                                    <i className="fas fa-circle fa-stack-2x"></i>
+                                    <i className="fab fa-facebook-f fa-stack-1x"></i>
+
                                 </Link>
                             </span>
                             <span className="fa-stack">
                                 <Link href="/">
-                                    <a>
-                                        <i className="fas fa-circle fa-stack-2x"></i>
-                                        <i className="fab fa-twitter fa-stack-1x"></i>
-                                    </a>
+
+                                    <i className="fas fa-circle fa-stack-2x"></i>
+                                    <i className="fab fa-twitter fa-stack-1x"></i>
+
                                 </Link>
                             </span>
                             <span className="fa-stack">
                                 <Link href="/">
-                                    <a>
-                                        <i className="fas fa-circle fa-stack-2x"></i>
-                                        <i className="fab fa-pinterest-p fa-stack-1x"></i>
-                                    </a>
+
+                                    <i className="fas fa-circle fa-stack-2x"></i>
+                                    <i className="fab fa-pinterest-p fa-stack-1x"></i>
+
                                 </Link>
                             </span>
                             <span className="fa-stack">
                                 <Link href="/">
-                                    <a>
-                                        <i className="fas fa-circle fa-stack-2x"></i>
-                                        <i className="fab fa-instagram fa-stack-1x"></i>
-                                    </a>
+
+                                    <i className="fas fa-circle fa-stack-2x"></i>
+                                    <i className="fab fa-instagram fa-stack-1x"></i>
+
                                 </Link>
                             </span>
                         </div>
@@ -57,7 +57,7 @@ const FooterPage: NextPage = () => {
                 </div>
             </div>
         </footer>
-    )
+    );
 }
 
 export default FooterPage;
