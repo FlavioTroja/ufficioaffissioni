@@ -8,7 +8,7 @@ const Contacts: NextPage = () => {
             <Head>
                 <title>Contatti</title>
                 <meta name="description" content="Richiedi informazioni attraverso in nostro centralino. Una persona ti risponderà subito." />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/images/favicon.ico" />
             </Head>
             <h1>Contatti</h1>
         </>

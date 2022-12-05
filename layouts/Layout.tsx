@@ -13,7 +13,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <Head>
                 <title>Ufficio Affissioni</title>
                 <meta name="description" content="Richiedi un preventivo per affiggere manifesti nella tua città attraverso il portale ufficio affissioni" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/images/favicon.ico" />
             </Head>
             <NavbarPage />
             {children}

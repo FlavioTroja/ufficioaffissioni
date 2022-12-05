@@ -20,11 +20,10 @@ const HeaderPage: React.FC = () => {
                     </div>
                     <div className="col-lg-6">
                         <Image
-                            className="img-fluid"
+                            className="img-fluid w-auto h-auto"
                             src="/images/header.png"
-                            width={200}
-                            height={150}
-                            layout="responsive"
+                            width={500}
+                            height={500}
                             alt="Ufficio Affissioni Della tua città"
                             priority />
                     </div>
