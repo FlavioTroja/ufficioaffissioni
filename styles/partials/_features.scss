@@ -6,68 +6,70 @@ $featureIconFirstType: #00d462;
 $featureCardIconSecondType: #e2ebfd;
 $featureIconSecondType: #1f68f3;
 
-.card-1 {
+.cards-1 {
   padding-top: 9rem;
   padding-bottom: 1.25rem;
   text-align: center;
 }
 
-.card-1 .heading {
+.cards-1 .heading {
   margin-bottom: 3.75rem;
 }
 
-.card-1 .h2-heading span {
+.cards-1 .h2-heading span {
   color: $secondaryColor;
   text-decoration: underline;
 }
 
-.card-1 .card {
+.cards-1 .card {
   margin-bottom: 5rem;
   border: none;
   background-color: transparent;
 }
 
-.card-1 .card-icon {
+.cards-1 .card-icon {
   width: 76px;
   height: 76px;
+  margin-bottom: 2.5rem;
   margin-right: auto;
+  margin-left: auto;
   border-radius: 10px;
   background-color: $featureBackground;
 }
 
-.card-1 .card-icon .fas,
-.card-1 .card-icon .far {
+.cards-1 .card-icon .fas,
+.cards-1 .card-icon .far {
   color: $featureCardIconDefault;
   font-size: 2.5rem;
   line-height: 76px;
 }
 
-.card-1 .card-icon.green {
+.cards-1 .card-icon.green {
   background-color: $featureCardIconFirstType;
 }
 
-.card-1 .card-icon.green .fas,
-.card-1 .card-icon.green .far {
+.cards-1 .card-icon.green .fas,
+.cards-1 .card-icon.green .far {
   color: $featureIconFirstType;
 }
 
-.card-1 .card-icon.blue {
+.cards-1 .card-icon.blue {
   background-color: $featureCardIconSecondType;
 }
 
-.card-1 .card-icon.blue .fas,
-.card-1 .card-icon.blue .far {
+.cards-1 .card-icon.blue .fas,
+.cards-1 .card-icon.blue .far {
   color: $featureIconSecondType;
 }
 
-.card-1 .card-body {
+.cards-1 .card-body {
   padding: 0;
 }
 
-.card-1 .card-title {
+.cards-1 .card-title {
   margin-bottom: 1rem;
 }
 
-.card-1 .card-body p {
+.cards-1 .card-body p {
   margin-bottom: 1.125rem;
 }
